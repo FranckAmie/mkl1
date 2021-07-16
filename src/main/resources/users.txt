@@ -1,0 +1,3 @@
+idUser,nom,prenom,email,telephone,role
+1000,SIKE,Syle,mai,839,CL
+1001,FANK,CS,cfr,654434345,PP
