@@ -1,11 +1,15 @@
 pipeline {
   agent any
   stages{
-    stage('Build'){
+    stage('Build BUILD'){
       steps{
-        sh 'C:\Users\Admin\Downloads\maven\apache-maven-3.8.1\bin\mvn clean install'
+        sh 'mvn clean install'
       }
     }
-
+   stage('Test TEST'){
+        steps{
+          sh 'mvn test'
+        }
+      }
   }
 }
